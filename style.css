@@ -11,8 +11,12 @@ body{
 }
 
 div {
-    /* border: solid 2px black; */
+    border: solid 1px gray; 
     background-color: goldenrod;
+}
+
+div:hover {
+    background-color: blueviolet;
 }
 
 button {
@@ -20,5 +24,6 @@ button {
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-
+    height: 90px;
+    width: 100px;
 }

@@ -8,7 +8,7 @@ bod.appendChild(btnBegin);
 
 function createTable (number){
     const container = document.querySelector('.container');
-    for(i=1;i<=number;i++){
+    for(i=1;i<=number*number;i++){
        let divsGrid = new Array();
        divsGrid[i] = document.createElement('div');
        divsGrid[i].textContent = 'B'+i;
